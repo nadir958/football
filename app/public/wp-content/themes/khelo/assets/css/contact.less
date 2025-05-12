@@ -1,0 +1,152 @@
+/*contact layout*/
+
+
+input[type="submit"]{
+    border: none;
+    padding: 10px 18px;
+}
+
+textarea{
+    border: none;
+    padding: 10px 18px;
+    height: 150px;
+}
+input[type="text"], 
+input[type="number"], 
+input[type="email"],  
+input[type="url"], 
+select,
+input[type="password"]{
+    height: 50px;
+    padding: 5px 15px;
+    border: 1px solid #dddd;
+    margin-bottom: 25px;
+    outline: none;
+    border-radius: 5px;
+    background: #fff;
+}
+
+div textarea{
+	border: 1px solid #dddd;
+    border-radius: 5px;
+    margin-bottom: 22px;
+}
+input[type="submit"]{
+    background:@primaryColor;
+}
+div.wpcf7 {
+    .ajax-loader{
+        position: absolute;
+        top: 16px;
+        right: -40px;
+    }
+}
+.rs-contact{
+    .contact-address{
+    	.address-item{
+    		overflow: hidden;
+    		margin-top: 20px;
+            background-size: cover !important;
+    		.address-icon{
+    			float: left;
+    			width: 40px;
+    			height: 40px;
+    			line-height: 40px;
+    			text-align: center;
+    			i{
+    				font-size: 25px;
+    			}
+    		}
+    		.address-text{
+    			float: left;
+    			width: 80%;
+    			padding-left: 15px;
+    			h3.contact-title{
+    				font-size: 16px;
+    				margin: 0;
+                    color: @secondaryColor;
+    			}
+    			a{
+    				color: @secondaryColor;
+    				&:hover{
+    					color:@primaryColor;
+    				}
+    			}
+    		}
+    	}
+        &.style3 {
+            .address-icon{
+                &:after{
+                    background: transparent !important;
+                }
+            }
+        }
+    }
+}
+.overlap-form{
+    .rs-heading{
+        position: relative;
+        z-index: 99;
+    }
+    .wpcf7{
+        background: #fff;
+        padding: 0 40px !important;
+        position: relative;
+        &:before{
+            background: #fff;
+            content: "";
+            height: 145px;
+            left: 0;
+            position: absolute;
+            top: -145px;
+            width: 100%;
+            border-top-right-radius: 5px;
+            border-top-left-radius: 5px;
+            -webkit-backface-visibility: hidden;
+            -ms-backface-visibility: hidden;
+            -moz-backface-visibility: hidden;
+            backface-visibility: hidden;
+            box-shadow: 0 -6px 12px rgba(0,0,0,0.08);
+            outline: 1px solid transparent;
+        }
+        &:after{
+            background: #fff;
+            content: "";
+            height: 73px;
+            left: 0;
+            position: absolute;
+            bottom: -73px;
+            width: 100%;
+            border-bottom-right-radius: 5px;
+            border-bottom-left-radius: 5px;
+            -webkit-backface-visibility: hidden;
+            -ms-backface-visibility: hidden;
+            -moz-backface-visibility: hidden;
+            backface-visibility: hidden;
+            box-shadow: 0 10px 10px rgba(0,0,0,0.08);
+            outline: 1px solid transparent;
+        }
+        input[type="email"], input[type="text"]{
+            width: 100%;
+            height: 50px;
+            margin-bottom: 10px;
+        }
+        textarea.wpcf7-textarea{
+            width: 100%;
+        }
+    }
+    .submit-btn{
+        margin: 0 auto;
+    }
+}
+.left-btn .contact-page1 .submit-btn {
+    margin-top: 5px;
+    margin-left: 0;
+}
+.contact-details-address{
+    .rs-heading .title-inner h3.title{
+        margin-bottom: 6px;
+        font-size: 20px;
+        font-weight: 500 !important;
+    }
+}
