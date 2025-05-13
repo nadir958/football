@@ -15,6 +15,9 @@ require_once plugin_dir_path(__FILE__) . 'includes/class-football-table.php';
 require_once plugin_dir_path(__FILE__) . 'import-league-ranking.php';
 require_once plugin_dir_path(__FILE__) . 'includes/functions.php';
 require_once plugin_dir_path(__FILE__) . 'import-players.php';
+require_once plugin_dir_path(__FILE__) . 'post-type-matches.php';
+require_once plugin_dir_path(__FILE__) . 'import-matches.php';
+require_once plugin_dir_path(__FILE__) . 'matches-shortcode.php';
 
 // Initialize the plugin
 function football_table_init() {
